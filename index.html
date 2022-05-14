@@ -18,8 +18,14 @@
                 <li><a href="./">Контакты</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul>
+            <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
 <!--ОСНОВНОЙ БЛОК-->
     <main>
@@ -27,12 +33,16 @@
             <section>
                 <h1>Эффективные решения <br/> для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
-        
             </section>
         </div>
-        
         <!--БЛОК С ТЕКСТОМ-->
         <section>
+            <!--у секції , там де є Внимание к деталям , повинен бути заголовок <h2>, його немає по дизайну, 
+                але по структурі він повинен там бути, тож прописуємо 
+                <h2> з будь-яким заголовком, на твій россуд (звичайно щоб було за змістом), 
+                а заголовки у списку вже стануть <h3> . <h2> ми потім приховаємо за допомогою стилів (то пізніше), але він там має бути, 
+                бо це у нас <section> і така секція повинна мати якийсь заголовок -->
+            <h2>Наши сильные стороны</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -73,23 +83,23 @@
             <div>
                 <section>
                     <img src="./image/block2img1.jpeg" alt="block2img1" width="270" height="260">
-                    <h4>Игорь Демьяненко</h4>
-                    <p>Product Designer</p>
+                    <h3>Игорь Демьяненко</h3>
+                    <p lang="en">Product Designer</p>
                 </section>
                 <section>
                     <img src="./image/block2img2.jpeg" alt="block2img2" width="270" height="260">
-                    <h4>Ольга Репина</h4>
-                    <p>Frontend Developer</p>
+                    <h3>Ольга Репина</h3>
+                    <p lang="en">Frontend Developer</p>
                 </section>
                 <section>
                     <img src="./image/block2img3.jpeg" alt="block2img3" width="270" height="260">
-                    <h4>Николай Тарасов</h4>
-                    <p>Marketing</p>
+                    <h3>Николай Тарасов</h3>
+                    <p lang="en">Marketing</p>
                 </section>
                 <section>
                     <img src="./image/block2img4.jpeg" alt="block2img4" width="270" height="260">
-                    <h4>Михаил Ермаков</h4>
-                    <p>UI Designer</p>
+                    <h3>Михаил Ермаков</h3>
+                    <p lang="en">UI Designer</p>  
                 </section>
             </div>  
         </section>
@@ -98,11 +108,16 @@
     <footer>
         <a href="./">WebStudio</a>
         <address>
-            г. Киев, пр-т Леси Украинки, 26
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+                <li>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
         </address>
     </footer>
-    
 </body>
 </html>
